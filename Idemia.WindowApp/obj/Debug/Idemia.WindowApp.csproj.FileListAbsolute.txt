@@ -1,0 +1,15 @@
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\bin\Debug\Idemia.WindowApp.exe.config
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\obj\Debug\Idemia.WindowApp.csprojResolveAssemblyReference.cache
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\obj\Debug\Idemia.WindowApp.Properties.Resources.resources
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\obj\Debug\Idemia.WindowApp.RequestManagerForm.resources
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\obj\Debug\Idemia.WindowApp.csproj.GenerateResource.Cache
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\bin\Debug\Idemia.WindowApp.exe
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\bin\Debug\Idemia.WindowApp.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\bin\Debug\Idemia.Common.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\bin\Debug\Idemia.DAL.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\bin\Debug\Oracle.DataAccess.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\bin\Debug\Idemia.Common.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\bin\Debug\Idemia.DAL.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\obj\Debug\Idemia.WindowApp.exe
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\obj\Debug\Idemia.WindowApp.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.WindowApp\obj\Debug\Idemia.WindowApp.RequestForm.resources

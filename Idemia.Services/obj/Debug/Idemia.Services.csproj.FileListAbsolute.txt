@@ -1,0 +1,11 @@
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\bin\Idemia.Services.dll.config
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\bin\Idemia.Services.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\bin\Idemia.Services.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\obj\Debug\Idemia.Services.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\obj\Debug\Idemia.Services.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\bin\Idemia.Common.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\bin\Idemia.DAL.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\bin\Oracle.DataAccess.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\bin\Idemia.Common.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\bin\Idemia.DAL.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Services\obj\Debug\Idemia.Services.csprojResolveAssemblyReference.cache

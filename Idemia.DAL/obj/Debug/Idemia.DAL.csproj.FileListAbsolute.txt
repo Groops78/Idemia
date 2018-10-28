@@ -1,0 +1,9 @@
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.DAL\obj\Debug\Idemia.DAL.csprojResolveAssemblyReference.cache
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.DAL\bin\Debug\Idemia.DAL.dll.config
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.DAL\bin\Debug\Idemia.DAL.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.DAL\bin\Debug\Idemia.DAL.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.DAL\bin\Debug\Idemia.Common.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.DAL\bin\Debug\Idemia.Common.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.DAL\obj\Debug\Idemia.DAL.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.DAL\obj\Debug\Idemia.DAL.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.DAL\bin\Debug\Oracle.DataAccess.dll

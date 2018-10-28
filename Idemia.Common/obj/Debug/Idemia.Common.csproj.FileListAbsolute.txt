@@ -1,0 +1,4 @@
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Common\bin\Debug\Idemia.Common.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Common\bin\Debug\Idemia.Common.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Common\obj\Debug\Idemia.Common.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.Common\obj\Debug\Idemia.Common.pdb

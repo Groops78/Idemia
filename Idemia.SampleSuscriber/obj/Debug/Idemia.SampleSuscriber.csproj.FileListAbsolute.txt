@@ -1,0 +1,5 @@
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.SampleSuscriber\bin\Debug\Idemia.SampleSuscriber.exe.config
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.SampleSuscriber\bin\Debug\Idemia.SampleSuscriber.exe
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.SampleSuscriber\bin\Debug\Idemia.SampleSuscriber.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.SampleSuscriber\obj\Debug\Idemia.SampleSuscriber.exe
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.SampleSuscriber\obj\Debug\Idemia.SampleSuscriber.pdb

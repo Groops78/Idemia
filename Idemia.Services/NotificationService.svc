@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Idemia.Services.NotificationService" CodeBehind="NotificationService.svc.cs" %>

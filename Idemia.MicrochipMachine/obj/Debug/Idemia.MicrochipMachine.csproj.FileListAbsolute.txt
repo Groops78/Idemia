@@ -1,0 +1,8 @@
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.MicrochipMachine\bin\Debug\Idemia.MicrochipMachine.exe.config
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.MicrochipMachine\bin\Debug\Idemia.MicrochipMachine.exe
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.MicrochipMachine\bin\Debug\Idemia.MicrochipMachine.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.MicrochipMachine\bin\Debug\Idemia.Common.dll
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.MicrochipMachine\bin\Debug\Idemia.Common.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.MicrochipMachine\obj\Debug\Idemia.MicrochipMachine.exe
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.MicrochipMachine\obj\Debug\Idemia.MicrochipMachine.pdb
+C:\Users\IEUser\Desktop\Projects\Idemia\Idemia.MicrochipMachine\obj\Debug\Idemia.MicrochipMachine.csprojResolveAssemblyReference.cache

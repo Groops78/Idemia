@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BackendService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:49247/BackendService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:49247/BackendService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:49247/BackendService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Idemia.Common.Entities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBackendService_GetRequests_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequests" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_GetRequests_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequestsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_GetRequestStatuses_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequestStatuses" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_GetRequestStatuses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequestStatusesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_SaveRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRequest" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_SaveRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_GetNextRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNextRequest" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_GetNextRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNextRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_TransitionRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:TransitionRequest" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_TransitionRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TransitionRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_GetFactoryStats_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFactoryStats" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_GetFactoryStats_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFactoryStatsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_ClearInProgress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearInProgress" />
+  </wsdl:message>
+  <wsdl:message name="IBackendService_ClearInProgress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearInProgressResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IBackendService">
+    <wsdl:operation name="GetRequests">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackendService/GetRequests" message="tns:IBackendService_GetRequests_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackendService/GetRequestsResponse" message="tns:IBackendService_GetRequests_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestStatuses">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackendService/GetRequestStatuses" message="tns:IBackendService_GetRequestStatuses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackendService/GetRequestStatusesResponse" message="tns:IBackendService_GetRequestStatuses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveRequest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackendService/SaveRequest" message="tns:IBackendService_SaveRequest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackendService/SaveRequestResponse" message="tns:IBackendService_SaveRequest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNextRequest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackendService/GetNextRequest" message="tns:IBackendService_GetNextRequest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackendService/GetNextRequestResponse" message="tns:IBackendService_GetNextRequest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TransitionRequest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackendService/TransitionRequest" message="tns:IBackendService_TransitionRequest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackendService/TransitionRequestResponse" message="tns:IBackendService_TransitionRequest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFactoryStats">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackendService/GetFactoryStats" message="tns:IBackendService_GetFactoryStats_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackendService/GetFactoryStatsResponse" message="tns:IBackendService_GetFactoryStats_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearInProgress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBackendService/ClearInProgress" message="tns:IBackendService_ClearInProgress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBackendService/ClearInProgressResponse" message="tns:IBackendService_ClearInProgress_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IBackendService" type="tns:IBackendService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetRequests">
+      <soap:operation soapAction="http://tempuri.org/IBackendService/GetRequests" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestStatuses">
+      <soap:operation soapAction="http://tempuri.org/IBackendService/GetRequestStatuses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveRequest">
+      <soap:operation soapAction="http://tempuri.org/IBackendService/SaveRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNextRequest">
+      <soap:operation soapAction="http://tempuri.org/IBackendService/GetNextRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransitionRequest">
+      <soap:operation soapAction="http://tempuri.org/IBackendService/TransitionRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFactoryStats">
+      <soap:operation soapAction="http://tempuri.org/IBackendService/GetFactoryStats" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearInProgress">
+      <soap:operation soapAction="http://tempuri.org/IBackendService/ClearInProgress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BackendService">
+    <wsdl:port name="BasicHttpBinding_IBackendService" binding="tns:BasicHttpBinding_IBackendService">
+      <soap:address location="http://localhost:49247/BackendService.svc/soap" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
